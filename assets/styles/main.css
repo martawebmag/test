@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(2, 49, 80);
+    padding: 19px 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.nav-list li {
+    margin: 0 25px;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: purple;
+}
+
+.registration-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px auto; 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+#registration_form_email {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(2, 49, 80);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Stylizacja dla małego diva */
+.maly-div {
+    width: 900px; /* szerokość diva */
+    padding: 20px; /* wewnętrzny odstęp */
+    background-color: #f0f0f0; /* kolor tła */
+    border: 1px solid #ccc; /* obramowanie */
+    border-radius: 5px; /* zaokrąglone rogi */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* cień */
+    font-family: Arial, sans-serif; /* czcionka */
+    font-size: 18px; /* rozmiar tekstu */
+    color: #333; /* kolor tekstu */
+    margin: 10px auto; /* centrowanie diva */
+    text-align: center; /* wyśrodkowanie tekstu */
+}
+
+
+
+.custom-form {
+    max-width: 500px;
+    margin: 0 auto; /* Centruje formularz na stronie */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-form input[type="text"],
+.custom-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.custom-form input[type="text"]:focus,
+.custom-form textarea:focus {
+    border-color: rgb(2, 49, 80);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.custom-form textarea {
+    resize: vertical; /* Umożliwia użytkownikowi zmianę wysokości pola */
+}
+
+.custom-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(2, 49, 80);
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+img {
+    width: 40%;
+}

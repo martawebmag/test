@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Rejestracja pomyślna{% endblock %}
+
+{% block body %}
+
+<div class="registration-form">
+Gratulacje, zarejestrowałeś się!
+      <div class="mb-3">
+            Teraz możesz się zalogować na swoje konto <b>   <a href="{{ path('app_login') }}">Zaloguj się</a></b> 
+        </div>
+</div>
+
+{% endblock %}

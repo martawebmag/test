@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Strona główna{% endblock %}
+
+{% block body %}
+
+
+<div class="maly-div">
+    <h2>Strona główna</h2>
+    Witaj na mojej stronie! Nazywam się Marta, a to jest moje małe miejsce w sieci, gdzie dzielę się swoją pasją, wiedzą i doświadczeniami. Od zawsze fascynowałem się komputerami, co z czasem przerodziło się w coś więcej niż tylko hobby – stało się to integralną częścią mojego życia i ścieżki zawodowej.
+<br>
+
+
+
+</div>
+
+<div class="maly-div"> 
+ 
+    <form class="custom-form">
+
+    <img src="{{ asset('images/foto.jpg') }}" alt="My Image">
+
+
+       <h3>Dodaj wpis</h3>
+        <label for="first_name">Imię:</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <label for="last_name">Nazwisko:</label>
+        <input type="text" id="last_name" name="last_name">
+
+        <label for="title">Tytuł:</label>
+        <input type="text" id="title" name="title">
+
+        <label for="description">Opis:</label>
+        <textarea id="description" name="description" rows="4"></textarea>
+
+        <button type="submit">Zatwierdź</button>
+    </form>
+
+
+</div>
+
+
+
+
+{% endblock %}
